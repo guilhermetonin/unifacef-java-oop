@@ -1,0 +1,12 @@
+# pasta out
+out/
+
+# intellij
+.idea/
+*.iml
+
+# 
+ClasseObjeto/.gitignore
+
+#
+.DS_Store
