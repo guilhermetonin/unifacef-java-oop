@@ -1,12 +1,13 @@
-# pasta out
-out/
+**/out/
+**/target/
+**/*.class
 
-# intellij
-.idea/
-*.iml
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
 
-# 
-ClasseObjeto/.gitignore
-
-#
 .DS_Store
+Thumbs.db
+
+**/.gitignore
