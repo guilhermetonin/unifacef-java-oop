@@ -1,0 +1,13 @@
+**/out/
+**/target/
+**/*.class
+
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+
+.DS_Store
+Thumbs.db
+
+**/.gitignore
