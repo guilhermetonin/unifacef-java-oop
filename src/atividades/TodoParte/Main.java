@@ -1,6 +1,8 @@
-import modelo.Cliente;
-import modelo.Pedido;
-import modelo.Produto;
+package atividades.TodoParte;
+
+import atividades.TodoParte.modelo.Cliente;
+import atividades.TodoParte.modelo.Pedido;
+import atividades.TodoParte.modelo.Produto;
 import java.util.Date;
 
 public class Main {
