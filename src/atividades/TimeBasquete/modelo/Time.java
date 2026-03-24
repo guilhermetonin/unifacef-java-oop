@@ -1,4 +1,4 @@
-package atividades.Agregacao.TimeBasquete.modelo;
+package atividades.TimeBasquete.modelo;
 
 import java.util.ArrayList;
 import java.util.List;

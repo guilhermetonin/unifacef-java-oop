@@ -1,7 +1,7 @@
-package atividades.Agregacao.TimeBasquete;
+package atividades.TimeBasquete;
 
-import atividades.Agregacao.TimeBasquete.modelo.Atleta;
-import atividades.Agregacao.TimeBasquete.modelo.Time;
+import atividades.TimeBasquete.modelo.Atleta;
+import atividades.TimeBasquete.modelo.Time;
 
 public class Main {
     static void main(String[] args) {

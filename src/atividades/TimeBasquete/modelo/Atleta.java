@@ -1,4 +1,4 @@
-package atividades.Agregacao.TimeBasquete.modelo;
+package atividades.TimeBasquete.modelo;
 
 public class Atleta {
     private int id;
