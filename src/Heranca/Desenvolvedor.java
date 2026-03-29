@@ -1,8 +1,8 @@
 package Heranca;
 
+// classe pai
 public class Desenvolvedor {
-    protected String nome;
-    protected String linguagem;
+    protected String nome, linguagem;
     protected float salarioBase;
 
     public Desenvolvedor() {
@@ -38,7 +38,15 @@ public class Desenvolvedor {
         this.salarioBase = salarioBase;
     }
 
-    @Override // anulação de método
+    public void codar(){
+        System.out.println("Devenvolvedor criando código ");
+    }
+
+    public float calculaBonus(){
+        return (this.salarioBase * 0.05f);
+    }
+
+    @Override
     public String toString() {
         return "Desenvolvedor{" +
                 "nome='" + nome + '\'' +
