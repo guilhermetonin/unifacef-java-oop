@@ -1,4 +1,4 @@
-package atividades.TodoParte.classeassociacao;
+package atividades.TodoParte.ClasseAssociacao;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;

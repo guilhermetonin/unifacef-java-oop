@@ -1,4 +1,4 @@
-package atividades.TodoParte.classeassociacao;
+package atividades.TodoParte.ClasseAssociacao;
 
 // objeto parte
 public class Passageiro {
