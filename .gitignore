@@ -8,6 +8,7 @@
 **/*.ipr
 
 .DS_Store
-Thumbs.db
+Thubs.db
+HELP.md
 
 **/.gitignore
