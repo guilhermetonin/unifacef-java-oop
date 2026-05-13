@@ -1,14 +1,25 @@
-**/out/
+# compilação e build
+target/
 **/target/
-**/*.class
+*.class
+**/out/
 
-**/.idea/
-**/*.iml
-**/*.iws
-**/*.ipr
+# configurações da IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
 
+# arquivos do sistema
 .DS_Store
-Thubs.db
+Thumbs.db
 HELP.md
 
-**/.gitignore
+# maven wrapper
+.mvn/wrapper/maven-wrapper.jar
