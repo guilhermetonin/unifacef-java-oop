@@ -1,10 +1,10 @@
 package dc.unifacef.memoria.model;
 
+// "molde" que representa um produto
 public class Produto {
     private Long id; // inteiro com capacidade de armazenamento maior
     private String nome;
     private Double preco;
-    private Integer qtde;
 
     public Long getId() {
         return id;
@@ -29,14 +29,4 @@ public class Produto {
     public void setPreco(Double preco) {
         this.preco = preco;
     }
-
-    public Integer getQtde() {
-        return qtde;
-    }
-
-    public void setQtde(Integer qtde) {
-        this.qtde = qtde;
-    }
 }
-
-
