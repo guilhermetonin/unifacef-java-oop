@@ -1,11 +1,14 @@
 # compilação e build
 target/
 **/target/
+build/
+**/build/
 *.class
 **/out/
 
-# configurações da IDE
+# configurações de IDEs
 .idea/
+**/.idea/
 *.iws
 *.iml
 *.ipr
@@ -15,11 +18,22 @@ target/
 .settings/
 .factorypath
 .apt_generated
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# arquivos do sistema
+# arquivos do sistema e documentação
 .DS_Store
 Thumbs.db
 HELP.md
+**/HELP.md
 
 # maven wrapper
-.mvn/wrapper/maven-wrapper.jar
+.mvn/
+**/.mvn/
+!**/mvnw
+!**/mvnw.cmd
